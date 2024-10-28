@@ -9,9 +9,9 @@ pipeline {
     environment {
         // Define environment variables for Tomcat
         WAR_FILE = 'target/roshambo.war' // Path to the generated WAR file (use forward slashes)
-        TOMCAT_URL = 'http://localhost:9090' // Tomcat server URL
-        TOMCAT_USER = 'naved13' // Tomcat Manager username
-        TOMCAT_PASSWORD = 'Naved1311$' // Tomcat Manager password
+        TOMCAT_URL = 'http://localhost:8090' // Tomcat server URL
+        TOMCAT_USER = 'saadansari' // Tomcat Manager username
+        TOMCAT_PASSWORD = '221458' // Tomcat Manager password
     }
     
     stages {
